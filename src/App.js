@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, Redirect } from "react-router-dom";
 
 import Header from "./components/header/header.component";
 import Homepage from "./pages/homepage/homepage.component";
@@ -16,9 +16,10 @@ function App() {
 
       <div className="container mt-5 mb-5">
         <Switch>
+          <Route exact path="/" component={Homepage} />
           <Route path="/projects" component={ProjectCollections} />
           <Route path="/contact" component={ContactPage} />
-          <Route exact path="/" component={Homepage} />
+          <Route path="/portfolio" component={Homepage} />
           <Route path="*" component={NotFoundPage} />
         </Switch>
       </div>
