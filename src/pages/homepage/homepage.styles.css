@@ -1,0 +1,9 @@
+.author-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.author-bio {
+  padding: 1rem;
+}
