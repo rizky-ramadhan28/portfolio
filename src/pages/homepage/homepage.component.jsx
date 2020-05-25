@@ -10,7 +10,7 @@ const Homepage = () => (
       <div className="row">
         <div className="col-12 author-information">
           <img
-            src={require(`../../assets/images/profile.jpg`)}
+            src="https://images.unsplash.com/photo-1517148815978-75f6acaaf32c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
             className="img-fluid rounded"
             alt="Author's Profile"
           />
