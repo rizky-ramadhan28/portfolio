@@ -2,10 +2,10 @@ import React from "react";
 
 import "./project.styles.css";
 
-const Project = ({ project: { name, imageUrl, date } }) => (
+const Project = ({ project: { name, projectUrl, imageUrl, date } }) => (
   <div className="col-12 col-sm-4 mb-4 project">
     <a
-      href="https://google.com"
+      href={projectUrl}
       target="_blank"
       rel="noopener noreferrer"
       className="project-url"
