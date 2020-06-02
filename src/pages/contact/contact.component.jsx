@@ -30,8 +30,8 @@ const ContactPage = () => (
 
                   <p className="card-text">
                     <small className="text-muted">
-                      Menerima kolaborasi dan bekerja dalam team maupun
-                      individu.
+                      Menerima undangan untuk internship atau bekerja paruh
+                      waktu.
                     </small>
                   </p>
                 </div>

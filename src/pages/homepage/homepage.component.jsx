@@ -39,10 +39,7 @@ const Homepage = () => (
             Sebagai seorang web developer, ia menekuni{" "}
             <span className="text-primary font-weight-bold">React</span> dan{" "}
             <span className="text-success font-weight-bold">Vue JS</span>{" "}
-            sebagai alat untuk digunakan pada bagian front end. Untuk backend
-            sendiri, ia membulatkan pilihan pada{" "}
-            <span className="text-success font-weight-bold">Node JS</span>. Di
-            luar{" "}
+            sebagai alat untuk digunakan pada bagian front end. Di luar{" "}
             <span className="text-warning font-weight-bold">Javascript</span>,
             ia juga memiliki pengalaman dengan{" "}
             <span className="text-danger font-weight-bold">Laravel</span>.
