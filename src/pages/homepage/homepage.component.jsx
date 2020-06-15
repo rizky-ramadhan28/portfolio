@@ -54,6 +54,8 @@ const Homepage = () => (
           <a
             href="https://drive.google.com/file/d/16QHU1RStugNwfJU_1sgI3rNoOy6IL-v4/view?usp=sharing"
             className="card-link"
+            rel="noopener noreferrer"
+            target="_blank"
           >
             Download CV
           </a>
