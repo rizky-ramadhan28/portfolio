@@ -51,7 +51,10 @@ const Homepage = () => (
             mempelajari hal-hal baru karena itu adalah kenikmatan tersendiri.
           </p>
 
-          <a href="https://google.com" className="card-link">
+          <a
+            href="https://drive.google.com/file/d/16QHU1RStugNwfJU_1sgI3rNoOy6IL-v4/view?usp=sharing"
+            className="card-link"
+          >
             Download CV
           </a>
         </div>
